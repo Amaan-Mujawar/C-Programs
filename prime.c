@@ -33,7 +33,6 @@ int main() {
             pn++;
         }
     }
-
     if (pn > 0)
     {
         printf("The prime numbers are : \n");
@@ -41,12 +40,11 @@ int main() {
         {
             printf("%d\n", prime[i]);
         }
-        
-    }else
+    }
+    else
     {
         printf("No prime number found!!!");
     }
-    
-    
+
     return 0;
 }

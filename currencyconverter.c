@@ -46,6 +46,7 @@ int main() {
             printf("\nTHANK YOU!!!");
         }
     }
+    
     else if (ch1 == 2) {
         dollar:
 
@@ -81,6 +82,7 @@ int main() {
             printf("\nTHANK YOU!!!");
         }
     }
+
     else if (ch1 == 3) {
         euro:
 
@@ -116,13 +118,16 @@ int main() {
             printf("\nTHANK YOU!!!");
         }
     }
+
     else {
         printf("\nINVALID CHOICE!!!!!");
     }
+
     printf("\nDo you want to continue with Currency Converter?(press 1): ");
     scanf("%d", &ch3);
     if (ch3 == 1) {
         goto menu;
     }
+
     printf("\n----------THANK YOU----------");
 }
